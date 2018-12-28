@@ -3,26 +3,27 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 import './bootstrap.min.css';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home.js";
+import About from "./pages/About/About.js";
+import Projects from "./pages/Projects/Projects.js";
+import Contact from "./pages/Contact/Contact.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-         
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div id="secondRoot">
+          <Navbar/>
+            <div id="main">
+              <Route exact path = "/" component={Home}/>
+              <Route exact path = "/about" component={About}/>
+              <Route exact path = "/products" component={Projects}/>
+              <Route exact path = "/contact" component={Contact}/>
+            </div>
+          <Footer/>
+        </div>
+      </Router>
     );
   }
 }

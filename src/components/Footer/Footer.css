@@ -1,0 +1,18 @@
+.footer{
+    height: auto;
+    padding: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    padding: 100px 0;
+    border-top: 1px #dedede solid;
+    background: #f7f7f7;
+
+  }
+  #footerText{
+    text-align: center;
+  }
+  .footerIcon{
+    height: 60px;
+  }
