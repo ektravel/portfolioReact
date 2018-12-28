@@ -1,0 +1,9 @@
+.socialImage{
+    width: 35px;
+    height: 35px;
+}
+
+.social-item{
+    display: inline-block;
+    margin-left: 40px;
+}

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "./Footer.css";
-import SocialDetails from "../SocialDetails";
+import SocialDetails from "../SocialDetails/SocialDetails";
 
 class Footer extends Component {
     render() {

@@ -1,4 +1,6 @@
 import React from "react";
+import "./SocialDetails.css";
+
 const SocialDetails = (props) => {
     return (
         <div className={props.footerElement}>
