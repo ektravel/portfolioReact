@@ -2,9 +2,16 @@
     display: inline-block;
     list-style: none;
     padding-left: 0px;
+    padding-right: 30px;
 }
 
 #arrow-right{
     width: 30px; 
     height: 19px;
+}
+.about{
+    margin-bottom: 80px;
+}
+#aboutHeader{
+    margin-top: 40px;
 }

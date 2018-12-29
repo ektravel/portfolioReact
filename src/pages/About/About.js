@@ -5,15 +5,17 @@ import "./About.css"
 const About = () => {
     return (
         <div className="conainer">
-            <div className="row justify-content-md-center about">
-                    <h2>Constantly learning and ready to experiment with new technologies.</h2>
+            <div className="row justify-content-md-center about" id="aboutHeader">
+                <div className="col-md-9">
+                    <h3>Constantly learning, constantly improving.</h3>
+                </div>
             </div>
 
             <div className="row justify-content-md-center about">
                 <div className="col-md-9">
                     <h2>About Me</h2>
                     <p>
-                        I am a web developer currently living in Austin, TX. I enjoy working through challenges and complex problems and my previous experience as a senior buyer has taught me how to work with clients in an efficient and diplomatic way. I have a passion for application development, a strong work-ethic, and the ability to work independently as well as collaboratively in a team environment. If you hire me, you will get an outgoing hard-working employee who will  put 100% of effort into every project, and proactively look for ways to contribute and help the team.
+                        I am a web developer currently living in Austin, TX. I enjoy working through challenges and complex problems and my previous experience as a senior buyer has taught me how to work with clients in an efficient and diplomatic way. I have a passion for application development, a strong work-ethic, and the ability to work independently as well as collaboratively in a team environment. If you hire me, you will get an outgoing hard-working employee who puts 100% of effort into every project and proactively looks for ways to contribute and help the team.
                     </p>
                 </div>
             </div>
