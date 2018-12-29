@@ -1,0 +1,10 @@
+.aboutSkills{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#arrow-right{
+    width: 30px; 
+    height: 19px;
+}
