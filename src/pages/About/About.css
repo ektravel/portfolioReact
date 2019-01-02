@@ -2,7 +2,7 @@
     display: inline-block;
     list-style: none;
     padding-left: 0px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 #arrow-right{
@@ -14,4 +14,38 @@
 }
 #aboutHeader{
     margin-top: 40px;
+}
+#aboutPageContactLink{
+    color: #212529;
+}
+#aboutPageContactLink:hover {
+    color: rgba(20,20,20,.24);
+    text-decoration: none;
+    border: rgba(20,20,20,.24);
+}
+.aboutImg{
+    padding-left: 100px;
+}
+
+#laptopImg, #emailImg{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.bw{
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.bw:hover {
+    -webkit-filter: grayscale(100%);
+  }
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.1); 
 }

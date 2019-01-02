@@ -29,7 +29,7 @@ class Navbar extends Component {
 
         return (
             <nav className="navbar navbar-expand-lg">
-                <Link className="navbar-brand" to="/home">
+                <Link className="navbar-brand" to="/">
                      <img className="navbar-logo" src="./images/navLogo.png" alt="inti logo" /> 
                 </Link>
                 <button onClick={this.toggleNavbar} className={`${buttonClass}`} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@ class Navbar extends Component {
                 <div className={`${navbarClass}`} id="navbarNav">
                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/home" onClick={this.toggleNavbar}>Home</Link>
+                            <Link className="nav-link" to="/" onClick={this.toggleNavbar}>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/about" onClick={this.toggleNavbar}>About</Link>
