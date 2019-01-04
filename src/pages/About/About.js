@@ -64,7 +64,7 @@ const About = () => {
                 <div className="col-md-9">
                     <p>Ready to work together?</p>
                     <p>
-                        <Link id="aboutPageContactLink" to="/contact">contact me <img id="arrow-right" src="images/arrow-right.png"></img></Link>
+                        <Link id="aboutPageContactLink" to="/contact">contact me <img id="arrow-right" src="images/arrow-right.png" alt="arrow"></img></Link>
                     </p>
                 </div>
 
