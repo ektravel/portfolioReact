@@ -15,7 +15,7 @@ class MapView extends Component {
         scrollWheelZoom={true}
         dragging={true}
         animate={true}
-        easeLinearity={0.35}
+        easeLinearity={0.45}
       >
         <TileLayer
           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'

@@ -48,7 +48,7 @@ class Navbar extends Component {
                             <Link className="nav-link" to="/projects" onClick={this.toggleNavbar}>Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact" onClick={this.toggleNavbar}>Contact</Link>
+                            <Link className="nav-link" to="/#contactSection" onClick={this.toggleNavbar}>Contact</Link>
                         </li>
                     </ul>
                 </div>

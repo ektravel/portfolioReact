@@ -2,3 +2,44 @@
     background-color: black;
     color: #f8f8f8;
 }
+#contactHeader{
+    color: #fff;
+    line-height: .9;
+    font-weight: 600;
+    font-size: 6.4rem !important;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+#email{
+    color: rgba(139, 182, 247, 0.925);
+}
+
+#email:hover{
+  -webkit-animation:colorchange 15s infinite alternate;  
+}
+
+@-webkit-keyframes colorchange {
+
+  10% {color: #1abc9c;}
+  20% {color: #8e44ad;}
+  30% {color: #d35400;}
+  40% {color: red}
+  50% {color: #1e7422;}
+  60% {color: rgb(64, 64, 230);}
+  70% {color: #11836a;}
+  80% {color: #f1c40f;}
+  90% {color: #e48416;}
+  100% {color: pink;}
+}
+.contactPageLinks{
+    color: rgba(139, 182, 247, 0.925);
+    text-decoration: none;
+    padding-left: 5px;
+}
+.contactPageLinks:hover{
+    text-decoration: none;
+    color: rgba(139, 182, 247, 0.925);
+    -webkit-animation:colorchange 20s infinite alternate;
+}
