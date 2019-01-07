@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <div className="row justify-content-md-center about">
-                <div className="col-md-9">
+                <div className="col-md-5">
                     <h2>Skills</h2>
                     <ul className="aboutSkills">
                         <li>Front-end Development</li>
@@ -30,16 +30,15 @@ const About = () => {
                         <li>Javascript</li>
                         <li>jQuery</li>
                         <li>ES6</li>
-                    </ul>
-
-                    <ul className="aboutSkills">
                         <li>Node.Js</li>
                         <li>React</li>
                         <li>GIT</li>
                         <li>Heroku</li>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
+                        <li>MongoDB (limited)</li>
+                        <li>MySQL (limited)</li>
                     </ul>
+                </div>
+                <div className="col-md-4"><img id="headshotImg" src="./images/headshot.png" alt="headshot"/>
                 </div>
             </div>
 
@@ -49,18 +48,22 @@ const About = () => {
                         <Link to="/images/EkaterinaMacedo_Resume.pdf" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark" id="resumeLink">Download Resume</Link>
                     </span>
                 </div>
-                <div className="col-md-4 aboutImg">
+                {/* <div className="col-md-4 aboutImg">
                     <Link to="/contact"><img className="bw grow" id="emailImg" src="./images/email.png" alt="email"></img>
                     </Link>
                     <Link to="/projects">
                         <img className="bw grow" id="laptopImg" src="./images/laptop.png" alt="laptop"></img>
                     </Link>
+                </div> */}
 
+                <div className="col-md-4">
+                <p>Ready to work together?</p>
+                    <p>
+                        <Link id="aboutPageContactLink" to="/contact">contact me <img id="arrow-right" src="images/arrow-right.png" alt="arrow"></img></Link>
+                    </p>
                 </div>
-
-
             </div>
-            <div className="row justify-content-md-center about">
+            {/* <div className="row justify-content-md-center about">
                 <div className="col-md-9">
                     <p>Ready to work together?</p>
                     <p>
@@ -68,7 +71,7 @@ const About = () => {
                     </p>
                 </div>
 
-            </div>
+            </div> */}
         </div>
 
     );

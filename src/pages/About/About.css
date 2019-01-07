@@ -23,17 +23,17 @@
     text-decoration: none;
     border: rgba(20,20,20,.24);
 }
-.aboutImg{
+/* .aboutImg{
     padding-left: 100px;
 }
 
 #laptopImg, #emailImg{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
     margin-left: 10px;
-}
-.bw{
+} */
+/* .bw{
     -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -48,4 +48,10 @@
 }
 .grow:hover { 
     transform: scale(1.1); 
+} */
+
+#headshotImg{
+    max-width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
