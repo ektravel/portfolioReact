@@ -1,0 +1,8 @@
+#homeBanner{
+    height: 500px;
+    width: 100%;
+    background-image: url("/images/austin.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}

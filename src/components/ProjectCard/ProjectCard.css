@@ -7,8 +7,12 @@
   padding: 0;
   border: 1px solid rgb(221, 220, 220);
 }
+.card-body{
+  height: 40%;
+}
 .projectCardImg{ 
   max-height: 240px;
+  width: 100%;
   border-bottom: 1px solid rgb(221, 220, 220);
 
   -webkit-transition: all 1s ease;
@@ -18,7 +22,8 @@
        transition: all 1s ease;
 } 
 .projectCardImg:hover {
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: blur(2px); /* Safari */
+  filter: blur(2px);
 }
 .projectLink{
   color: #212529;
@@ -29,8 +34,6 @@
   text-decoration: none;
 }
 .card-title{
-  padding-top: 8px;
-  padding-bottom: 14px;
   color: #141414;
   text-transform: uppercase;
   font-family: "Apercu",Helvetica,Arial,sans-serif;
@@ -39,5 +42,5 @@
   color: #141414;
   margin-bottom: 0;
   padding-top: 0;
-  padding-bottom: 24px;
+  padding-bottom: 14px;
 }

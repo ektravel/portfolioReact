@@ -8,7 +8,9 @@ class Footer extends Component {
         <footer className= "footer text-muted text-center">
             <div className="row">
                 <div className="col-md-6">
-                    <p id="footerText">Copyright © Katya Macedo - All rights reserved</p>
+                    <p id="footerText">
+                    Copyright © Katya Macedo - All rights reserved
+                    </p>
                 </div>
                 <div className="col-md-6">
                 <SocialDetails
@@ -43,8 +45,7 @@ class Footer extends Component {
                 socialImageSrc = "/images/codewars.svg"
                 socialImageAlt = "codewars icon"/>
                 </div>
-            </div>
-            
+            </div>   
         </footer>
     );
 }

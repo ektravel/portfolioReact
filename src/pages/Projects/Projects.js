@@ -4,7 +4,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard.js";
 
 const Projects = () => {
     return (
-        <div className="conainer">
+        <div>
             <div className="row justify-content-md-center">
                 <div className="col-md-10">
                     <h3 id="projectsHeader">Projects</h3>

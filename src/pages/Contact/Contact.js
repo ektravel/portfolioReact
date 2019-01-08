@@ -4,11 +4,11 @@ import MapView from "../../components/MapView/MapView";
 
 const Contact = () => {
     return (
-        <div className="row justify-content-md-center contact" id="contactSection">
-            <div className="col-md-5">
+        <div className="row contact" id="contactSection">
+            <div className="col-md-4" id="mapView">
                 <MapView />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-8">
                 <h2 id="contactHeader">Contact</h2>
                 <div id="address">
                     <p>
