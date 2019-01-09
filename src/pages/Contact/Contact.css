@@ -45,9 +45,6 @@
     color: rgba(139, 182, 247, 0.925);
     -webkit-animation:colorchange 20s infinite alternate;
 }
-#mapView{
-    padding-left: 0;
-}
 #address{
 padding-left: 35px;
 }

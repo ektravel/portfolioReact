@@ -1,8 +1,9 @@
 .card {
+  max-width: 318.25px;
   background: #fff;
   overflow: hidden;
   margin: 1rem;
-  display: inline-block;
+  /* display: inline-block; */
   /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
   padding: 0;
   border: 1px solid rgb(221, 220, 220);

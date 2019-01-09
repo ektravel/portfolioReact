@@ -14,8 +14,8 @@ class App extends Component {
     return (
       <Router>
         <div id="secondRoot">
-          <Navbar/>
-            <div id="main">
+          <div id="main">
+            <Navbar/>
               <Route exact path = "/" component={Home}/>
               <Route exact path = "/about" component={About}/>
               <Route exact path = "/projects" component={Projects}/>

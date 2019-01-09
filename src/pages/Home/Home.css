@@ -2,7 +2,19 @@
     height: 500px;
     width: 100%;
     background-image: url("/images/austin.jpg");
-    background-attachment: scroll;
+    margin-bottom: 35px;
     background-size: cover;
     background-position: center;
+}
+
+#homeProjectsLink{
+    padding-top:25px;
+    padding-bottom: 45px;
+}
+#react{
+    color: #61dafb;
+}
+.homeP{
+    margin-bottom: 25px;
+    color: rgb(133, 132, 132);
 }
