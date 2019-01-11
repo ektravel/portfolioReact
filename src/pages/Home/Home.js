@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div >
                 <div id="homeBanner"></div>
-                <div className="row justify-content-md-center">
+                <div className="row justify-content-md-center" id="homeSection">
                     <div className="col-md-10">
                         <h1>Hi, I'm Katya Macedo</h1>
                         <h3>a web developer focused on <span id="react">React</span></h3>
@@ -21,7 +21,7 @@ class Home extends Component {
                         <h3>Recent Projects</h3>
                     </div>
                 </div>
-                <div className="row justify-content-md-center">
+                <div className="row justify-content-md-center" id="homeProjects">
                     <ProjectCard
                         cardImgSrc="./images/inti-provisions.png"
                         cardImgAlt="Inti Provisions"
@@ -44,9 +44,9 @@ class Home extends Component {
                         projectLink = "https://cryptic-retreat-79047.herokuapp.com/"
                     />
                 </div>    
-                <div className="row row justify-content-md-center"> 
+                <div className="row justify-content-md-center" id="homeProjectsBtn"> 
                     <div className="col-md-10" id="homeProjectsLink">  
-                        <Link to="/projects" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark">View Projects</Link>
+                        <Link to="/projects" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark" >View Projects</Link>
                     </div>
                 </div>
                 <Contact />

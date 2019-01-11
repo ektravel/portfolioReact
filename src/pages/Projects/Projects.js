@@ -10,7 +10,7 @@ const Projects = () => {
                     <h3 id="projectsHeader">Projects</h3>
                 </div>
             </div>
-            <div className="row justify-content-md-center">
+            <div className="row justify-content-md-center projectsPage">
 
                 <ProjectCard
                 cardImgSrc = "./images/inti-provisions.png"

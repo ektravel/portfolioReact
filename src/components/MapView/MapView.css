@@ -1,3 +1,9 @@
 .leaflet-container {
 min-height: 400px;
 }
+
+@media (max-width: 767.98px) { 
+    .leaflet-container {
+    min-height: 250px;
+    }
+}

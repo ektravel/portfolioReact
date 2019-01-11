@@ -5,7 +5,7 @@ import MapView from "../../components/MapView/MapView";
 const Contact = () => {
     return (
         <div className="row contact" id="contactSection">
-            <div className="col-md-4" id="mapView">
+            <div className="col-md-4">
                 <MapView />
             </div>
             <div className="col-md-8">

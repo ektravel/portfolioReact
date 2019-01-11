@@ -18,3 +18,16 @@
     margin-bottom: 25px;
     color: rgb(133, 132, 132);
 }
+
+@media (max-width: 784px) { 
+    #homeSection{
+        text-align: center;
+    }
+    #homeProjects{
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    #homeProjectsBtn{
+        text-align: center;
+    }
+}

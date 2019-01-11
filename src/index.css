@@ -6,8 +6,8 @@ body {
   font-size: 21px;
   line-height: 1.42857143;
   color: #000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
