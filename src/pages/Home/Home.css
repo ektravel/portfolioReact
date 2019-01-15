@@ -6,6 +6,10 @@
     background-size: cover;
     background-position: center;
 }
+#homeSection{
+    text-align: center;
+
+}
 
 #homeProjectsLink{
     padding-top:25px;

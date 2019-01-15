@@ -7,8 +7,9 @@ import { Link } from "react-router-dom";
 class Home extends Component {
     render() {
         return (
-            <div >
+            <div>
                 <div id="homeBanner"></div>
+                
                 <div className="row justify-content-md-center" id="homeSection">
                     <div className="col-md-10">
                         <h1>Hi, I'm Katya Macedo</h1>
