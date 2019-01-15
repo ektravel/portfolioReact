@@ -4,7 +4,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard.js";
 
 const Projects = () => {
     return (
-        <div>
+        <div class="container-fluid">
             <div className="row justify-content-md-center">
                 <div className="col-md-12">
                     <h3 id="projectsHeader">Projects</h3>

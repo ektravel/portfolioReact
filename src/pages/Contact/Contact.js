@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div class="container-fluid">
             <div className="row contact" id="contactSection">
-                <div className="col-md-4">
+                <div className="col-md-4" id="mapSection">
                     <MapView />
                 </div>
                 <div className="col-md-8">

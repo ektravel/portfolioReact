@@ -4,7 +4,7 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div>
+        <div class="container-fluid">
             <div className="row justify-content-md-center about" id="aboutHeader">
                 <div className="col-md-10">
                     <h3>Constantly learning, constantly improving.</h3>
