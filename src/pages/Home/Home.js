@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <div id="homeBanner"></div>
-                    <div class="container-fluid">
+                    <div className="container-fluid">
                         <div className="row justify-content-md-center" id="homeSection">
                             <div className="col-md-10">
                                 <h1>Hi, I'm Katya Macedo</h1>

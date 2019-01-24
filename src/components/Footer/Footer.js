@@ -6,14 +6,14 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer text-muted ">
-                <div class="container-fluid">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
                             <p id="footerText">
                                 Copyright © Katya Macedo - All rights reserved
                             </p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 text-center">
                             <SocialDetails
                                 footerElement="social-item"
                                 socialIcon="social-link instagram"

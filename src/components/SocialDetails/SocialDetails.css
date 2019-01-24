@@ -5,5 +5,16 @@
 
 .social-item{
     display: inline-block;
-    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 375px) { 
+    .social-item{
+        padding-top: 15px;
+    }
+    .socialImage{
+        width: 25px;
+        height: 25px;
+    }
 }

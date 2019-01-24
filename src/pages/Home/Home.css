@@ -34,4 +34,15 @@
     #homeProjectsBtn{
         text-align: center;
     }
+    #homeBanner{
+        height: 300px;
+        width: inherit;
+    }
+}
+
+@media (max-width: 320px) { 
+    #homeBanner{
+        height: 200px;
+        width: inherit;
+    }
 }
