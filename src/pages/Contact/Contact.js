@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="col-md-4" id="mapSection">
                     <MapView />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 text-center">
                     <h2 id="contactHeader">Contact</h2>
                     <div id="address">
                         <p>

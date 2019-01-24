@@ -28,7 +28,7 @@ class Navbar extends Component {
             : "navbar-toggler navbar-toggler-right custom-toggler";
 
         return (
-            <nav className="navbar navbar-expand-lg bg-transparent">
+            <nav className="navbar navbar-expand-lg">
                 <Link className="navbar-brand" to="/">
                      <img className="navbar-logo" src="./images/navLogo.png" alt="KM logo" /> 
                 </Link>
@@ -37,7 +37,7 @@ class Navbar extends Component {
                 </button>
 
                 <div className={`${navbarClass}`} id="navbarNav">
-                    <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link className="nav-link" to="/" onClick={this.toggleNavbar}>Home</Link>
                         </li>

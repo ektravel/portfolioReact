@@ -2,7 +2,6 @@
     display: inline-block;
     list-style: none;
     padding-left: 0px;
-    padding-right: 50px;
 }
 
 #arrow-right{
@@ -14,6 +13,7 @@
 }
 #aboutHeader{
     margin-top: 40px;
+    color: rgb(16, 104, 139);
 }
 #aboutPageContactLink{
     color: #212529;
@@ -33,5 +33,14 @@
 @media (max-width: 784px) { 
     .about{
         text-align: center;
+    }
+    #headshotImg{
+        max-width: 250px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+    #resumeLink{
+        margin-bottom: 25px;
     }
 }

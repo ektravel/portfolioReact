@@ -2,7 +2,7 @@
     height: 80px;
     padding-left: 25px;
     padding-right: 25px;
-    /* border-bottom: 1px #dedede solid; */
+    /* border-bottom: 2px #fff2f2 solid; */
     background: #f7f7f7;
   }
   .custom-toggler.navbar-toggler{
@@ -58,9 +58,5 @@
     padding-left: 25px;
     padding-right: 25px;
     z-index: 900;
+    background: #f7f7f7;
   }
-
-  /* text-transform: uppercase;
-font-size: 14px;
-font-size: 1.4rem;
-font-weight: 600; */
