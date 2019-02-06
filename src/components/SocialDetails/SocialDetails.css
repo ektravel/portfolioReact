@@ -18,3 +18,7 @@
         height: 25px;
     }
 }
+
+.socialImage:hover{
+    transform: translateY(-5px);
+  }

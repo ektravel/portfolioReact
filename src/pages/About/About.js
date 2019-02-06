@@ -45,7 +45,7 @@ const About = () => {
             <div className="row justify-content-md-center about">
                 <div className="col-md-6">
                     <span>
-                        <Link to="/images/EkaterinaMacedo_Resume.pdf" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark" id="resumeLink">Download Resume</Link>
+                        <Link to="/images/Ekaterina_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark" id="resumeLink">Download Resume</Link>
                     </span>
                 </div>
                 <div className="col-md-4">
