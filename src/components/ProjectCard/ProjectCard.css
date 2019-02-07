@@ -3,8 +3,6 @@
   background: #fff;
   overflow: hidden;
   margin: 1rem;
-  /* display: inline-block; */
-  /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
   padding: 0;
   border: 1px solid rgb(221, 220, 220);
 }
@@ -15,7 +13,6 @@
   max-height: 240px;
   width: 100%;
   border-bottom: 1px solid rgb(221, 220, 220);
-
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -29,7 +26,6 @@
 .projectLink{
   color: #212529;
 }
-
 .projectLink:hover {
   color: rgba(10, 10, 10, 0.295);
   text-decoration: none;
@@ -44,4 +40,9 @@
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 14px;
+}
+.card:hover{
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc;
 }

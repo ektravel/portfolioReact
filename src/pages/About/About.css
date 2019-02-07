@@ -14,7 +14,25 @@
 #aboutHeader{
     margin-top: 40px;
     color: rgb(16, 104, 139);
+    font-family: "eurostile",sans-serif;
+    font-weight: bold;
 }
+#aboutHeader{
+    -webkit-animation:colorchange 15s infinite alternate;  
+} 
+@-webkit-keyframes colorchange { 
+    10% {color: #1abc9c;}
+    20% {color: #9c54bb;}
+    30% {color: #d35400;}
+    40% {color: rgb(224, 62, 62)}
+    50% {color: #257e29;}
+    60% {color: rgb(65, 65, 212);}
+    70% {color: #11836a;}
+    80% {color: #f1c40f;}
+    90% {color: #e48416;}
+    100% {color: pink;}
+}
+
 #aboutPageContactLink{
     color: #212529;
 }
@@ -44,3 +62,8 @@
         margin-bottom: 25px;
     }
 }
+#headshotImg:hover{
+    -moz-box-shadow: 0 0 10px rgb(182, 182, 182); 
+    -webkit-box-shadow: 0 0 10px rgb(182, 182, 182); 
+    box-shadow: 0 0 10px rgb(182, 182, 182);
+  }

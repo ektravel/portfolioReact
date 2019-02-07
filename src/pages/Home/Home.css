@@ -2,15 +2,25 @@
     height: 500px;
     width: 100%;
     background-image: url("/images/austin.jpg");
-    margin-bottom: 35px;
     background-size: cover;
     background-position: center;
 }
 #homeSection{
     text-align: center;
-
+    font-family: "eurostile",sans-serif;
+    padding-top: 55px;
+    background-color: #fafafa;
 }
-
+#homeHeader{
+    color: #293347;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-family: "eurostile",sans-serif;
+}
+#homeProjectsHeader{
+    text-align: center;
+    margin-top: 35px;
+}
 #homeProjectsLink{
     padding-top:25px;
     padding-bottom: 45px;
@@ -44,5 +54,12 @@
     #homeBanner{
         height: 200px;
         width: inherit;
+    }
+}
+
+@media (min-width: 800px) { 
+    #homeSection{
+        height:300px;
+        border-bottom: 1px solid rgb(202, 201, 201);
     }
 }

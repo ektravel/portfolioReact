@@ -3,7 +3,7 @@
     padding-left: 25px;
     padding-right: 25px;
     /* border-bottom: 2px #fff2f2 solid; */
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
   }
   .custom-toggler.navbar-toggler{
     padding: .25rem .35rem;
@@ -58,5 +58,35 @@
     padding-left: 25px;
     padding-right: 25px;
     z-index: 900;
-    background: #f7f7f7;
+    background: #ffffff;
+    opacity: 0.7;
   }
+
+  .navbar-brand {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: visible;
+    border: 3px solid #494c4e;
+    position: relative;
+    transform: rotate(0deg);
+    transition: transform .4s ease-in-out;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+  transform: rotate(-90deg);
+  transition: transform .4s ease-in-out;
+}
+
+.logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: transform .4s ease-in-out;
+  font-weight: bold;
+  font-size: 13px;
+  color: #494c4e;
+}

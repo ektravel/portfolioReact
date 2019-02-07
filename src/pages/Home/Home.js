@@ -12,17 +12,22 @@ class Home extends Component {
                     <div className="container-fluid">
                         <div className="row justify-content-md-center" id="homeSection">
                             <div className="col-md-10">
-                                <h1>Hi, I'm Katya Macedo</h1>
+                                <h1 id="homeHeader">Hi, I'm Katya Macedo</h1>
                                 <h3>a web developer focused on <span id="react">React</span></h3>
                                 <p className="homeP">
                                 I am passionate about coding and enjoy delivering compelling front end software solutions.
                                 <br/>
                                 I am a self-motivated, independent learner with a strong attention to details and a drive to write beautiful, well-designed code.
                                 </p>
+                            </div>
+                        </div>
+                        <div className="row justify-content-md-center" id="homeProjectsHeader">
+                            <div className="col-md-10"> 
                                 <h3>Recent Projects</h3>
                             </div>
                         </div>
                         <div className="row justify-content-md-center" id="homeProjects">
+                       
                             <ProjectCard
                             cardImgSrc="./images/inti-provisions.png"
                             cardImgAlt="Inti Provisions"

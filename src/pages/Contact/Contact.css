@@ -12,21 +12,16 @@
     margin-top: 35px;
     margin-bottom: 40px;
 }
-
 #mapSection{
     padding-left: 0;
     padding-right: 0;
 }
-
-
 #email{
     color: rgba(139, 182, 247, 0.925);
 }
-
 #email:hover{
   -webkit-animation:colorchange 15s infinite alternate;  
 }
-
 @-webkit-keyframes colorchange {
 
   10% {color: #1abc9c;}
