@@ -5,6 +5,9 @@
   margin: 1rem;
   padding: 0;
   border: 1px solid rgb(221, 220, 220);
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc;
 }
 .card-body{
   height: 40%;
@@ -41,8 +44,8 @@
   padding-top: 0;
   padding-bottom: 14px;
 }
-.card:hover{
+/* .card:hover{
   -moz-box-shadow: 0 0 10px #ccc; 
   -webkit-box-shadow: 0 0 10px #ccc; 
   box-shadow: 0 0 10px #ccc;
-}
+} */
