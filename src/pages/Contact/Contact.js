@@ -4,7 +4,7 @@ import MapView from "../../components/MapView/MapView";
 
 const Contact = () => {
     return (
-        <div className="container-fluid">
+        // <div className="container-fluid">
             <div className="row contact" id="contactSection">
                 <div className="col-md-4" id="mapSection">
                     <MapView />
@@ -15,7 +15,7 @@ const Contact = () => {
                         <p>
                             Have questions? Ready to work together?
                     <br />
-                            You can reach me via email at <span id="email">ekaterina.macedo@gmail.com</span>.
+                            You can reach me via email at <span id="email">contact@katyamacedo.com</span>.
                     </p>
                         <p>
                             I am also on
@@ -39,7 +39,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import "./Navbar.css";
 import '../../bootstrap.min.css';
 
@@ -31,7 +32,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-expand-lg bg-transparent">
                 <Link className="navbar-brand" to="/">
                      {/* <img className="navbar-logo" src="./images/navLogo.png" alt="KM logo" />  */}
-                     <span class="logo-text">KM</span>
+                     <span className="logo-text">KM</span>
                 </Link>
                 <button onClick={this.toggleNavbar} className={`${buttonClass}`} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
@@ -49,7 +50,7 @@ class Navbar extends Component {
                             <Link className="nav-link" to="/projects" onClick={this.toggleNavbar}>Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/#contactSection" onClick={this.toggleNavbar}>Contact</Link>
+                            <HashLink className="nav-link" to="/#contactSection" onClick={this.toggleNavbar}>Contact</HashLink>
                         </li>
                     </ul>
                 </div>

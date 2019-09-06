@@ -12,18 +12,18 @@ class Home extends Component {
                     <div className="container-fluid">
                         <div className="row justify-content-md-center" id="homeSection">
                             <div className="col-md-10">
-                                <h1 id="homeHeader">Hi, I'm Katya Macedo</h1>
-                                <h3>a web developer focused on <span id="react">React</span></h3>
+                                <h1 id="homeHeader">Hi, I'm Katya Macedo.</h1>
+                                <h3>A junior developer passionate about learning new technologies.</h3>
                                 <p className="homeP">
-                                I am passionate about coding and enjoy delivering compelling front end software solutions.
+                                I am a self-motivated learner with a strong attention to details and a drive to write beautiful, well-designed code.
                                 <br/>
-                                I am a self-motivated, independent learner with a strong attention to details and a drive to write beautiful, well-designed code.
+                                Lately, I have been focused on mastering <span id="react">React</span>, learning Python and AWS cloud computing.
                                 </p>
                             </div>
                         </div>
                         <div className="row justify-content-md-center" id="homeProjectsHeader">
                             <div className="col-md-10"> 
-                                <h3>Recent Projects</h3>
+                                <h2>Recent Projects</h2>
                             </div>
                         </div>
                         <div className="row justify-content-md-center" id="homeProjects">
@@ -55,8 +55,9 @@ class Home extends Component {
                                 <Link to="/projects" target="_blank" rel="noreferrer noopener" className="btn btn-outline-dark" >View Projects</Link>
                             </div>
                         </div>
+                        <Contact />
                     </div>
-                <Contact />
+                {/* <Contact /> */}
             </div>
         );
     }
