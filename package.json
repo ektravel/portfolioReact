@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "leaflet": "^1.4.0",
-    "npm": "^6.11.3",
+    "npm": "^6.14.18",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-leaflet": "^2.1.4",
